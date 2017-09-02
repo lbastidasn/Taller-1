@@ -40,7 +40,7 @@ public class Tiendita {
 //            System.out.println("Error al agregar producto");
 //        }
         tienda.AgregarPro(0, "pan", "supermercado", 30, 10000, 5);
-        tienda.AgregarPro(1, "dolex", "drogeria", 60, 1000, 10);
+        tienda.AgregarPro(1, "dolex", "drogueria", 60, 1000, 10);
         tienda.AgregarPro(2, "lapiz", "papeleria", 100, 100000, 15);
         tienda.AgregarPro(3, "borrador", "papeleria", 30, 10000, 5);
         Scanner hola = new Scanner(System.in);
@@ -56,7 +56,7 @@ public class Tiendita {
                 case 1:
                     System.out.println("Ingrese el nombre del producto a vender:");
                     String nombre = hola.next();
-                    System.out.println("Ingrese la cantidad de unidades vendidas del este producto:");
+                    System.out.println("Ingrese la cantidad de unidades solicitdas por el cliente:");
                     int cuantos = hola.nextInt();
                     System.out.println("El precio de su compra es: " + tienda.venderProducto(nombre, cuantos));
                     tienda.Pedido();

@@ -97,7 +97,8 @@ public class Tienda {
 
         }
         aux2 = this.dinero / productoVendido;
-        System.out.println(this.dinero +"El promedio de ventas es:"  + aux2);
+        System.out.println("El precio total de las ventas es: "+this.dinero);
+        System.out.println("El promedio de ventas es:"  + aux2);
     }
-    
+        
 }
